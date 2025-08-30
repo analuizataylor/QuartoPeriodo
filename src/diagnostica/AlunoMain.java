@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class AlunoMain {
 
-    static Scanner entrada = new Scanner(System.in);
+    private static Scanner entrada = new Scanner(System.in);
     public static void main(String[] args) {
 
         Aluno [] alunos = new Aluno[30];
@@ -15,7 +15,8 @@ public class AlunoMain {
                     + "\n3 - Imprimir todos os alunos"
                     + "\n4 - Alterar nota1"
                     + "\n5 - Alterar nota 2"
-                    + "\n6 - Sair");
+                    + "\n6 - Sair"
+                    + "Digite sua opção: ");
 
             opcao = entrada.nextInt();
             entrada.nextLine();

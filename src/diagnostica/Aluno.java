@@ -1,5 +1,12 @@
 package diagnostica;
 
+/*
+Classe que define um objeto Aluno
+
+ATRIBUTOS: nome, matricula, nota1, nota2 e media
+METODOS: construtor, get, set e toString
+ */
+
 public class Aluno {
     private String nome;
     private int matricula;
@@ -31,7 +38,7 @@ public class Aluno {
         return matricula;
     }
 
-    public void setMtricula(int matricula) {
+    public void setMatricula(int matricula) {
         this.matricula = matricula;
     }
 
